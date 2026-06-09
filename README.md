@@ -25,3 +25,4 @@ ADMIN_SESSION_SECRET=any-long-random-secret
 `.env.local` is ignored by Git, so it should not be uploaded to GitHub.
 
 This admin password is only a gate for the demo admin page. Production admin actions should also check Supabase roles such as `admin` and `moderator`, and every important action should be logged.
+Deployment refresh
